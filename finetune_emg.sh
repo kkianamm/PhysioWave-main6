@@ -17,12 +17,12 @@
 NUM_GPUS=1
 
 # Data paths (modify these to point to your dataset)
-TRAIN_FILE="/lambda/nfs/Kiana/PhysioWave/EPN612_processed/epn612_train_set.h5"
-VAL_FILE="/lambda/nfs/Kiana/PhysioWave/EPN612_processed/epn612_val_set.h5"
-TEST_FILE="/lambda/nfs/Kiana/PhysioWave/EPN612_processed/epn612_test_set.h5"
+TRAIN_FILE="/lambda/nfs/Kiana/PhysioWave-main6/EPN612_processed/epn612_train_set.h5"
+VAL_FILE="/lambda/nfs/Kiana/PhysioWave-main6/EPN612_processed/epn612_val_set.h5"
+TEST_FILE="/lambda/nfs/Kiana/PhysioWave-main6/EPN612_processed/epn612_test_set.h5"
 
 # Pretrained model checkpoint
-PRETRAINED_MODEL="/lambda/nfs/Kiana/PhysioWave/pretrain_emg_output/best_model.pth"
+PRETRAINED_MODEL="/lambda/nfs/Kiana/PhysioWave-main6/pretrain_emg_output/best_model.pth"
 
 # Output directory for fine-tuning results
 OUTPUT_DIR="./finetune_output"
